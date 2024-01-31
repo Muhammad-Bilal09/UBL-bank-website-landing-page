@@ -1,0 +1,19 @@
+@import "../../node_modules//bootstrap/scss/bootstrap.scss";
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+    // background: url(../Assets/pexels-essow-k-1005769.jpg);
+// background-size: cover;
+}
+.servicesgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    // grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
